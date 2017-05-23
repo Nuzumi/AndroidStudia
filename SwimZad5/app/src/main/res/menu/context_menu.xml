@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="rotation 0"
+        android:id="@+id/contextOpcja1"/>
+
+    <item android:title="rotation 60"
+        android:id="@+id/contextOpcja2"/>
+
+    <item android:title="rotation -60"
+        android:id="@+id/contextOpcja3"/>
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_linear_l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.micha.swimlab2.activityLinearL">
+
+    <TextView
+        android:text="okno:LinearLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="45px"/>
+
+    <ToggleButton
+        android:text="ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:id="@+id/OnOfLinear" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Wprowadz tekst"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Wprowadz tekst"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:id="@+id/tekstDoWprowadzenia" />
+
+    <TableLayout
+        android:layout_width="348dp"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button
+                android:text="powrot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/button"
+                android:onClick="powrotDo1"
+                android:layout_column="0"/>
+
+            <Button
+                android:text="kolejne okno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:onClick="doKolejnegoOkna"/>
+            <Button
+                android:text="Podsumowanie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:onClick="podsumowanieLiner"
+                android:layout_column="2"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

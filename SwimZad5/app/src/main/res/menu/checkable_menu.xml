@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item android:title="RED"
+            android:id="@+id/buttonBackground"/>
+
+        <item android:title="BOLD"
+            android:id="@+id/buttonBold"/>
+
+        <item android:title="ITALIC"
+            android:id="@+id/buttonItalic"/>
+
+    </group>
+
+</menu>

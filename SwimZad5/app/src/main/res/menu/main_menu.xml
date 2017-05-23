@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/opcja1"
+        android:title="opcja1"
+        android:icon="@drawable/ic_blur_circular_black_24dp"
+        app:showAsAction="withText|always"/>
+
+    <item android:title="opcja2"
+        android:id="@+id/opcja2"
+        android:icon="@drawable/ic_brightness_4_black_24dp"
+        app:showAsAction="withText|ifRoom"/>
+
+    <item android:title="opcja3"
+        android:id="@+id/opcja3"
+        android:icon="@drawable/ic_adjust_black_24dp"/>
+
+    <item android:title="submenu"
+        android:id="@+id/submenu1"
+        android:icon="@drawable/ic_view_comfy_black_24dp">
+
+        <menu>
+            <item android:title="opcja4"
+                android:id = "@+id/opcja4"
+                android:icon="@drawable/ic_flare_black_24dp"/>
+
+            <item android:title="opcja5"
+                android:id = "@+id/opcja5"
+                android:icon="@drawable/ic_remove_red_eye_black_24dp"/>
+
+            <item android:title="opcja6"
+                android:id = "@+id/opcja6"
+                android:icon="@drawable/ic_album_black_24dp"/>
+
+        </menu>
+    </item>
+
+</menu>

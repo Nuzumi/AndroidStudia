@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="RED"
+        android:id="@+id/contextOpcja21"/>
+
+    <item android:title="GREEN"
+        android:id="@+id/contextOpcja22"/>
+
+    <item android:title="BLUE"
+        android:id="@+id/contextOpcja23"/>
+
+</menu>
